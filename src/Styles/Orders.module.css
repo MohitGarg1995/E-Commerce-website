@@ -1,0 +1,18 @@
+.orders {
+    padding: 0 1rem;
+    cursor: pointer;
+    color: white;
+    text-align: left;
+}
+
+.ordersHint {
+    font-size: 13px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.ordersTitle {
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "Gill Sans", sans-serif;
+}

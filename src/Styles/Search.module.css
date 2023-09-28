@@ -1,0 +1,65 @@
+.mainContainer {
+    margin-left: 5% !important;
+    border-radius: 7px;
+}
+
+.childContainer {
+    display: flex;
+}
+
+.filter {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    height: 40px;
+}
+
+.grid1 {
+    height: 40px !important;
+    border-radius: 7px !important;
+}
+
+.FormControl {
+    min-width: 80;
+    height: 30;
+    background: #f2f2f2;
+    font-size: 8px;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.Select {
+    border: 1px solid grey;
+    height: 41px;
+    /* border-radius: 7px !important; */
+}
+
+.MenuText1 {
+    text-align: center !important;
+}
+
+.typo1 {
+    font-size: 14px !important;
+    padding-top: 2px !important;
+}
+
+.searchText {
+    margin-top: 9px !important;
+    padding-bottom: 5px !important;
+
+}
+
+.grid3 {
+    text-align: center !important;
+    height: 40px !important;
+}
+
+.formwidth {
+    min-width: 15 !important;
+}
+
+.dropdownSort {
+    height: 40px !important;
+    font-size: 13px !important;
+
+}

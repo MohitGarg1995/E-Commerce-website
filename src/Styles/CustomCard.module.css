@@ -1,0 +1,69 @@
+.cards {
+    width: 100%;
+    margin-bottom: 46px;
+    background-color: white;
+    padding: 2px;
+    border: solid 0.5px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #f1c557 !important;
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    /* margin-bottom: 1px !important; */
+    padding-bottom: 1px;
+}
+
+.btn1 {
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+.name {
+    color: black;
+    font-size: 13 px !important;
+    font-weight: bold !important;
+}
+
+.price {
+    font-size: 19px !important;
+    letter-spacing: 2px !important;
+    color: grey;
+    margin-top: 7px !important;
+}
+
+.priceIcon {
+    font-size: 16px !important;
+    color: darkgrey;
+    padding-right: 7px;
+}
+
+.rating {
+    font-size: 16px !important;
+    color: gray;
+    font-weight: light;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratings {
+    font-size: 18px !important;
+}
+
+.ratPad {
+    margin-right: 9rem !important;
+    font-size: 14px !important;
+}
+
+.ratPad1 {
+    font-size: 14px !important;
+    margin-left: 1px !important;
+}
+
+.textalign {
+    text-align: center;
+}

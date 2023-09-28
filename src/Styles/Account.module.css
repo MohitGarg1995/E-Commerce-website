@@ -1,0 +1,26 @@
+.account {
+    padding: 1px;
+    padding-left: 4rem;
+    cursor: pointer;
+    text-align: left;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.accountHint {
+    font-size: 13px;
+    /* margin-bottom: 0.2rem; */
+    color: white;
+}
+
+.accountTitle {
+    font-weight: bolder;
+    /* margin-right: 0.2rem; */
+    color: white;
+    font-size: 16px;
+
+}
+
+.accountarrow {
+    color: white;
+    margin-bottom: -0.5rem;
+}

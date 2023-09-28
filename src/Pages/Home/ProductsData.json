@@ -1,0 +1,161 @@
+[
+    {
+      "id": 1,
+      "name": "TP-Link Archer C6 Gigabit MU-MIMO Wireless Router",
+      "category": "Category A",
+      "rating": 4.5,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51NOjinGjrL._SX679_.jpg",
+      "price": 2249,
+      "ratingValue": "4156"
+    },
+    {
+      "id": 2,
+      "name": "Apple MacBook Pro",
+      "category": "Laptop",
+      "rating": 3.8,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71YRSVXhgQL._SX679_.jpg",
+      "price": 4034,
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 3,
+      "name": "Voltas 1.4 Ton 5 Star Inverter Adjustable Split AC",
+      "category": "AC",
+      "rating": 4.0,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71XKkmpD2FL._SX679_.jpg",
+      "price": 5000,
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 4,
+      "name": "IFB 17 L Solo Microwave Oven",
+      "category": "Microwave Oven",
+      "rating": 4.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81hN9SfFWEL._SX679_.jpg",
+      "price": 5075,
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy M31s",
+      "category": "Phone",
+      "rating": 3.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81hN9SfFWEL._SX679_.jpg",
+      "price": "19,549",
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 6,
+      "name": "Mi TV 4A PRO 108 cm",
+      "category": "TV",
+      "rating": 3.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/710rArA2OPL._SX679_.jpg",
+      "price": "24,950",
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 7,
+      "name": "Sony HT-S20R 5.1ch Dolby Digital Soundbar Home",
+      "category": "Spekar",
+      "rating": 3.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71%2Bs6K1eovL._SX679_.jpg",
+      "price": "14,992",
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 8,
+      "name": "Canon EOS M50 24.1MP Mirrorless Camera",
+      "category": "Camera",
+      "rating": 3.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/813SEryW1SL._SX679_.jpg",
+      "price": "56,224",
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 9,
+      "name": "TP-Link LB110 Wi-Fi SmartLight 10W",
+      "category": "SmartLight",
+      "rating": 3.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/21UWhFAM0uL.jpg",
+      "price": "2,579",
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 10,
+      "name": "Samsung 6.5 kg Fully-Automatic Top Loading Washing Machine",
+      "category": "Washing Machine",
+      "rating": 3.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51QmQjHQASL._SX679_.jpg",
+      "price": "14,448",
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 11,
+      "name": "Samsung 253L 3 Star Inverter Frost Free Double Door Refrigerator",
+      "category": "Refrigerator",
+      "rating": 3.2,
+      "image": "https://tse3.mm.bing.net/th?id=OIP.5S7uZVDGVaO1xeKnzjtolgHaHa&pid=Api&P=0&h=180",
+      "price": "23,481",
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 12,
+      "name": "LG 108 cm (43 inches) Full HD LED Smart TV",
+      "category": "LED Smart TV",
+      "rating": 3.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/7173oa2fxXL._SX679_.jpg",
+      "price": "29,922",
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 13,
+      "name": "Amazon Brand - Symbol Men's Regular Fit Polo Shirt",
+      "category": "Polo Shirt",
+      "rating": 3.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81VZO6P3jpL._UY879_.jpg",
+      "price": "391",
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 14,
+      "name": "Puma Unisex-Adult Sneakers Running Shoe",
+      "category": "Sneakers",
+      "rating": 3.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71IiyEyPv6L._UY695_.jpg",
+      "price": "2,771",
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 15,
+      "name": "Mi Smart Band 4",
+      "category": "Band",
+      "rating": 3.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71ZSpNjEl0L._SX679_.jpg",
+      "price": "1,999",
+      "ratingValue": "4156"
+
+    },
+    {
+      "id": 16,
+      "name": "Microwave ",
+      "category": "Microwave Oven",
+      "rating": 3.2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81hN9SfFWEL._SX679_.jpg",
+      "price": 120,
+      "ratingValue": "4156"
+
+    }
+  ]

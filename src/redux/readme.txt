@@ -1,0 +1,1 @@
+REDUX Toolkit:- managing state globally.
