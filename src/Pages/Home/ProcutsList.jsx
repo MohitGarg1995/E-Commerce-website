@@ -36,8 +36,6 @@ function ProcutsList() {
       <Grid
         container
         item
-        md={12}
-        lg={12}
         className={styles.mainContainer}
         justifyContent="space-between"
       >

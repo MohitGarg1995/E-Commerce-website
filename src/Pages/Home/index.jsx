@@ -8,7 +8,7 @@ import styles from "../../Styles/Homeindex.module.css";
 function HomePage() {
   return (
     <>
-      <Grid>
+      <Grid lg={12} md={12} sm={12} xl={12} xs={12}>
         <SwipeableCarousel />
       </Grid>
       <Grid container className={styles.ProcutsListComp}>
