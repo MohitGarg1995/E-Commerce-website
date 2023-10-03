@@ -33,29 +33,14 @@ exports.addProducts = async (req, res) => {
   }
 };
 
-// exports.addProducts = async (req, res) => {
-//   try {
-//     const { products } = req.body;
+exports.deleteProducts = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const deletedProducts = await Product.findByIdAndDelete(id);
 
-//     // console.log("aaaaaa", products);
-
-//     // if (!(Array.isArray(products) && products.length < 0)) {
-//     //   throw new Error("Please add some products");
-//     // }
-
-//     // add products to db
-//     const updatedProducts = await Product.insertMany(products);
-
-//     if (updatedProducts) {
-//       res.status(201).send({
-//         success: true,
-//         fruits: updatedProducts,
-//       });
-//     }
-//   } catch (error) {
-//     res.status(500).send({
-//       success: false,
-//       error: error.message,
-//     });
-//   }
-// };
+    res.status(201).send({
+      success: true,
+      data: deletedProducts,
+    });
+  } catch (error) {}
+};

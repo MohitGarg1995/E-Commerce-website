@@ -21,10 +21,14 @@ const EnhancedSwipeableViews = bindKeyboard(
 const styles = {
   slide: {
     padding: 15,
-    minHeight: 300,
+    minHeight: 330,
     color: "#fff",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
+  },
+  carouselContainer: {
+    position: "relative",
+    zIndex: 1,
   },
 };
 
