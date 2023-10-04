@@ -34,33 +34,28 @@
    Sorting products by price in either ascending or descending order gives users control over how they view and compare products. This functionality is perfect for budget-conscious shoppers or those looking for premium items.
 
 4. Product Management:
-
-Capability to add, edit, and delete products.
-Categorization of products for easy navigation.
-Display of product details, including images, descriptions, and pricing.
+   Capability to add, edit, and delete products.
+   Categorization of products for easy navigation.
+   Display of product details, including images, descriptions, and pricing.
 
 5. User Authentication and Authorization:
-
-User account creation and secure login functionality.
-Differentiated access levels for customers and administrators.
-Profile management for users.
+   User account creation and secure login functionality.
+   Differentiated access levels for customers and administrators.
+   Profile management for users.
 
 6. Shopping Cart and Checkout:
-
-Addition and removal of items to/from the shopping cart.
-Calculation of order totals, including taxes and shipping costs.
-Smooth and intuitive checkout process.
+   Addition and removal of items to/from the shopping cart.
+   Calculation of order totals, including taxes and shipping costs.
+   Smooth and intuitive checkout process.
 
 7. Order Management:
-
-Order tracking and history for users.
-Notifications for order confirmations, shipping updates, etc.
-Admin tools for order processing and management.
+   Order tracking and history for users.
+   Notifications for order confirmations, shipping updates, etc.
+   Admin tools for order processing and management.
 
 8. Search and Filtering:
-
-Efficient search functionality with filters for categories, price ranges, etc.
-Product sorting options based on relevance, price, and popularity.
+   Efficient search functionality with filters for categories, price ranges, etc.
+   Product sorting options based on relevance, price, and popularity.
 
 # Technologies Used in E-Commerce
 
