@@ -1,36 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
 import { Modal, Button, TextField, Grid, Typography } from "@mui/material";
-// import { useSelector, useDispatch } from "react-redux";
-// import { signinUser } from "../../redux/reducers/userSlice";
 
 const Index = () => {
-  // const Index = ({ show, handleClose, openSignUp }) => {
-  // const [formData, setFormData] = useState({ email: "", password: "" });
-
-  // const { user } = useSelector((state) => state.user);
-  // const dispatch = useDispatch();
-
-  // const handleSignIn = (e) => {
-  //   e.preventDefault();
-  //   if (formData && formData.email && formData.password) {
-  //     dispatch(signinUser(formData));
-  //   }
-  // };
-
-  // const handleChange = (e) => {
-  //   setFormData({
-  //     ...formData,
-  //     [e.target.name]: e.target.value,
-  //   });
-  // };
-
-  // useEffect(() => {
-  //   if (user && Object.keys(user).length) {
-  //     handleClose();
-  //   }
-  // }, [user]);
-
   return (
     <>
       <Modal>
@@ -74,7 +46,6 @@ const Index = () => {
                 <Grid container justifyContent="flex-end" spacing={1}>
                   <Grid item>
                     <Button variant="outlined" size="small">
-                      {/* <Button variant="outlined" size="small" onClick={openSignUp}> */}
                       Sign Up
                     </Button>
                   </Grid>

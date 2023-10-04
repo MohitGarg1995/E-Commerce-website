@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-// import styles from "../../Styles/Header.module.css";
+import styles from "../../Styles/Header.module.css";
 import Account from "./Account";
 import Search from "./Search";
 import Cart from "./Cart";
@@ -16,34 +16,24 @@ function Header() {
         container
         alignItems="center"
         justifyContent="center"
-        md={12}
-        sx={{ background: "black", width: "100%" }}
+        className={styles.parentContainer}
       >
-        <Grid item md={1} sm={1} xs={1} lg={1}>
+        <Grid item md={1} sm={1} xs={4} lg={1}>
           <Logo />
         </Grid>
-        <Grid item md={2} sm={2} xs={2} lg={2}>
+        <Grid item md={2} sm={2} xs={4} lg={2}>
           <DeliveryLocation />
         </Grid>
-        <Grid
-          item
-          xs={5}
-          md={5}
-          lg={5}
-          sm={5}
-          sx={{
-            borderRadius: "14px",
-          }}
-        >
+        <Grid item md={5} sm={4} xs={12} lg={5} className={styles.Search}>
           <Search />
         </Grid>
-        <Grid item xs={2} md={2}>
+        <Grid item md={2} sm={1} xs={4} lg={2}>
           <Account />
         </Grid>
-        <Grid item xs={2} md={1}>
+        <Grid item md={1} sm={1} xs={4} lg={1}>
           <Orders />
         </Grid>
-        <Grid item xs={2} md={1}>
+        <Grid item md={1} sm={1} xs={4} lg={1}>
           <Cart />
         </Grid>
       </Grid>

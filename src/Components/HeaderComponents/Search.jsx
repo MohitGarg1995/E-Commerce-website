@@ -47,8 +47,8 @@ function Search() {
 
   return (
     <>
-      <Grid container md={12} className={styles.filter}>
-        <Grid item md={3} className={styles.grid1}>
+      <Grid container className={styles.filter}>
+        <Grid item md={3} lg={3} xs={4} sm={6} className={styles.grid1}>
           <Select
             labelId="demo-simple-select-autowidth-label"
             id="demo-simple-select-autowidth"
@@ -72,7 +72,7 @@ function Search() {
             ))}
           </Select>
         </Grid>
-        <Grid item md={8}>
+        <Grid item md={8} lg={8} xs={8} sm={6}>
           <TextField
             fullWidth
             placeholder="Search by name"
@@ -84,7 +84,7 @@ function Search() {
           />
         </Grid>
 
-        <Grid item md={1} className={styles.grid3}>
+        <Grid item md={1} lg={1} xs={4} sm={6} className={styles.grid3}>
           <IconButton onClick={handleClick} size="large">
             <SortRoundedIcon />
           </IconButton>

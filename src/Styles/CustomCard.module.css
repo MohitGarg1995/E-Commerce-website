@@ -6,6 +6,8 @@
     border: solid 0.5px #d9d9d9;
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
 .btn {

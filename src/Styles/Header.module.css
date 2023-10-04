@@ -1,3 +1,14 @@
 .Header {
     border: 1px solid red;
 }
+
+.parentContainer {
+    background: black;
+    width: 100%;
+
+}
+
+.Search {
+    border-radius: 14px;
+
+}

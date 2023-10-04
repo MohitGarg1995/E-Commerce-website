@@ -1,0 +1,1 @@
+# Created Api's for Products:- inside that i m storing products name, title, image, rating, price.

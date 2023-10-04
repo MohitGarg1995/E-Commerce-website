@@ -2,55 +2,55 @@
 import React, { useEffect, useState } from "react";
 import CustomCard from "./CustomCard";
 import { Grid } from "@mui/material";
-// import productsData from "../Home/ProductsData.json";
+import productsData from "../Home/ProductsData.json";
 import styles from "../../Styles/ProductsList.module.css";
 import { useSelector } from "react-redux";
 
 function ProcutsList() {
-  const [products, setProducts] = useState([]);
-  // const [products, setProducts] = useState(productsData);
+  // const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState(productsData);
   const { search, category, sortOrder } = useSelector((state) => state.search);
 
-  // function handleSearch(keyword) {
-  //   const filteredProducts = productsData
-  //     .filter((product) =>
-  //       product.name.toLowerCase().includes(keyword.toLowerCase())
-  //     )
-  //     .filter((product) => {
-  //       if (category === "All") {
-  //         return true; // Show all products when "All" is selected
-  //       } else {
-  //         return product.category === category;
-  //       }
-  //     })
-  //     .sort((a, b) =>
-  //       sortOrder === "asc" ? a.price - b.price : b.price - a.price
-  //     );
-  //   setProducts(filteredProducts);
-  // }
-  // useEffect(() => {
-  //   handleSearch(search);
-  // }, [search, category, sortOrder]);
+  function handleSearch(keyword) {
+    const filteredProducts = productsData
+      .filter((product) =>
+        product.name.toLowerCase().includes(keyword.toLowerCase())
+      )
+      .filter((product) => {
+        if (category === "All") {
+          return true; // Show all products when "All" is selected
+        } else {
+          return product.category === category;
+        }
+      })
+      .sort((a, b) =>
+        sortOrder === "asc" ? a.price - b.price : b.price - a.price
+      );
+    setProducts(filteredProducts);
+  }
+  useEffect(() => {
+    handleSearch(search);
+  }, [search, category, sortOrder]);
 
   //FOR API INTEGRATIONS:-
 
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch("http://localhost:5000/api/v1/products");
-        const data = await response.json();
-        setProducts(data.data);
-      } catch (error) {
-        console.log("Error fetching data:", error);
-      }
-    }
-    fetchData();
-  }, [search, category, sortOrder]);
+  // useEffect(() => {
+  //   async function fetchData() {
+  //     try {
+  //       const response = await fetch("http://localhost:5000/api/v1/products");
+  //       const data = await response.json();
+  //       setProducts(data.data);
+  //     } catch (error) {
+  //       console.log("Error fetching data:", error);
+  //     }
+  //   }
+  //   fetchData();
+  // }, [search, category, sortOrder]);
+
   return (
     <>
       <Grid
         container
-        item
         className={styles.mainContainer}
         justifyContent="space-between"
       >
@@ -59,8 +59,8 @@ function ProcutsList() {
             item
             key={index}
             xs={12}
-            sm={7}
-            md={5}
+            sm={6}
+            md={4}
             lg={4}
             xl={3}
             className={styles.childContainer}
